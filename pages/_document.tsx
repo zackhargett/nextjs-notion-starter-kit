@@ -8,14 +8,18 @@ export default class MyDocument extends Document {
         <Html lang='en'>
           <Head>
             <link rel='shortcut icon' href='/favicon.ico' />
-            <link
-              rel='icon'
-              type='image/png'
-              sizes='32x32'
-              href='favicon.png'
-            />
 
             <link rel='manifest' href='/manifest.json' />
+            <link rel='preconnect' href='https://fonts.googleapis.com' />
+            <link
+              rel='preconnect'
+              href='https://fonts.gstatic.com'
+              crossOrigin='anonymous'
+            />
+            <link
+              href='https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap'
+              rel='stylesheet'
+            />
           </Head>
 
           <body>

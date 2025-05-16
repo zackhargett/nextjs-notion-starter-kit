@@ -63,3 +63,8 @@ body {
 .dark-mode {
   --bg-color: #121212 !important;
 }
+
+* {
+  font-family: 'Source Code Pro', monospace !important;
+  font-optical-sizing: auto !important;
+}
