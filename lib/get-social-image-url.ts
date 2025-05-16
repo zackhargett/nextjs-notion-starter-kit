@@ -2,7 +2,7 @@ import { api, host } from './config'
 
 export function getSocialImageUrl(pageId: string) {
   try {
-    const url = new URL(api.getSocialImage, host)
+    const url = new URL("/ogimg.png", host)
 
     if (pageId) {
       url.searchParams.set('id', pageId)
