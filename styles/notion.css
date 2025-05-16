@@ -168,7 +168,6 @@
 
 .notion-title {
   display: block;
-  text-align: center;
 }
 
 .notion-collection-row {
@@ -400,6 +399,18 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
+}
+
+.notion-page-icon-hero {
+  left: 50px !important;
+}
+
+.notion-header {
+  display: none !important;
+}
+
+.notion-frame {
+  padding: 0px 16px;
 }
