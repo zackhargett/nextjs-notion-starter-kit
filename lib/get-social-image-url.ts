@@ -1,13 +1,10 @@
-import { api, host } from './config'
+import { host } from './config'
 
 export function getSocialImageUrl(pageId: string) {
   try {
     const url = new URL("/ogimg.png", host)
-
-    if (pageId) {
-      url.searchParams.set('id', pageId)
-      return url.toString()
-    }
+    return url.toString()
+    
   } catch (err) {
     console.warn('error invalid social image url', pageId, err.message)
   }
